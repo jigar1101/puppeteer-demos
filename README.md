@@ -1,3 +1,4 @@
-# Google Search Screenshot using Puppeteer
+# Puppeteer Demos
 
-Demo for using puppeteer library to take a screenshot - Example of Google Search engine
+Demos for using puppeteer library
+- To take a screenshot - Example of Google Search engine
