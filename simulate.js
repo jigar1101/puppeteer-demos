@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
 
-async function performPuppeteerOperations() {
+async function performScreenshot() {
 
 	const browser = await puppeteer.launch();
 	  const page = await browser.newPage();
@@ -23,7 +23,7 @@ async function performPuppeteerOperations() {
  * This method demonstrate the export pdf feature of puppeteer.
  * It opens a page and exports the page to a pdf.
  */
-async function performPuppeteerExportPDF() {
+async function exportPDF() {
 	// Opens chromium in a headless state
 	const browser = await puppeteer.launch();
 
@@ -41,8 +41,6 @@ async function performPuppeteerExportPDF() {
 
 
 module.exports = {
-	performPuppeteerOperations: function() {
-		return performPuppeteerOperations()
-	},
-	performPuppeteerExportPDF: performPuppeteerExportPDF
+	performScreenshot,
+	exportPDF
  }
