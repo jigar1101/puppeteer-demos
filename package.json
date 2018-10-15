@@ -1,7 +1,7 @@
 {
-  "name": "puppeteer-google-search-screenshot-demo",
+  "name": "puppeteer-demos",
   "version": "1.0.0",
-  "description": "Demo for using puppeteer library to take a screenshot - Example of Google Search engine",
+  "description": "Demos for using puppeteer library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
