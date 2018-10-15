@@ -1,16 +1,16 @@
 const express = require('express');
 const path = require('path');
 const {
-	performPuppeteerOperations,
-	performPuppeteerExportPDF
+	performScreenshot,
+	exportPDF
 } = require('./simulate')
 
 const app = express();
 const port = process.env.PORT || 5000;
 
 /** Routes: START */
-app.get('/', callFunction.bind(this, performPuppeteerOperations));
-app.get('/export-pdf', callFunction.bind(this, performPuppeteerExportPDF));
+app.get('/screenshot', callFunction.bind(this, performScreenshot));
+app.get('/export-pdf', callFunction.bind(this, exportPDF));
 /** Routes: END */
 
 app.use(express.static(path.join(__dirname, 'build')));
