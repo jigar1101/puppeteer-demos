@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer-google-search-screenshot-demo",
+  "version": "1.0.0",
+  "description": "Demo for using puppeteer library to take a screenshot - Example of Google Search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigar1101/puppeteer-google-search-screenshot-demo.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "node",
+    "screenshot"
+  ],
+  "author": "Jigar Mehta <jigar.1101@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jigar1101/puppeteer-google-search-screenshot-demo/issues"
+  },
+  "homepage": "https://github.com/jigar1101/puppeteer-google-search-screenshot-demo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.9.0"
+  }
+}
